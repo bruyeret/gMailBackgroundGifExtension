@@ -1,3 +1,11 @@
+# GMail Background GIF Extension
+
+[link-template]: https://github.com/fregante/browser-extension-template
+
+Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos album and use it as theme in GMail settings.
+The rest of this document is from the template used for this extension: [browser-extension-template](link-template).
+
+
 # browser-extension-template
 
 [link-rgh]: https://github.com/sindresorhus/refined-github
