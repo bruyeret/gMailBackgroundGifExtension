@@ -1,16 +1,8 @@
 {
-	"name": "GMail GIF",
+	"name": "GMail GIF Theme",
 	"version": "1.0.0",
-	"description": "Make animated GIFs as background possible",
-	"homepage_url": "https://mail.google.com",
+	"description": "Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos album and use it as theme in GMail settings.",
 	"manifest_version": 3,
-	"minimum_chrome_version": "100",
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "gMailGifBackground@github.com",
-			"strict_min_version": "100.0"
-		}	
-	},
 	"icons": {
 		"128": "icon.png"
 	},
@@ -25,6 +17,7 @@
 		}]
 	},
 	"host_permissions": [
-		"<all_urls>"
+		"*://mail.google.com/*",
+		"*://lh3.googleusercontent.com/*"
 	]
 }
