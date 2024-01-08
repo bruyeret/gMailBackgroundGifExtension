@@ -10,7 +10,7 @@
         },
         "condition": {
             "initiatorDomains" : ["mail.google.com"],
-            "regexFilter": "https://lh3.googleusercontent.com/(.*):-k-no-nd",
+            "regexFilter": "https://lh3.googleusercontent.com/(.*)=(.*)",
             "resourceTypes": ["image"]
         }
     }
