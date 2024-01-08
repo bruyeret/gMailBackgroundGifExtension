@@ -4,6 +4,12 @@
 
 Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos album and use it as theme in GMail settings.
 
+Try it with:
+
+```bash
+web-ext run --firefox="C:\Program Files\Mozilla Firefox\firefox.exe"
+```
+
 ## Quick build guide
 
 ```bash
