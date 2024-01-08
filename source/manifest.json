@@ -9,6 +9,11 @@
 	"permissions": [
 		"declarativeNetRequestWithHostAccess"
 	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{45d40588-c9d9-4a33-a1fb-d7ae708a2471}"
+		}
+	},
 	"declarative_net_request" : {
 		"rule_resources" : [{
 			"id": "ruleset",
