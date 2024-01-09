@@ -1,6 +1,6 @@
 {
 	"name": "GMail Background GIF",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos album and use it as theme in GMail settings. Give the two authorizations in the add-on permissions for it to work.",
 	"manifest_version": 3,
 	"icons": {

@@ -1,16 +1,18 @@
 # GMail Background GIF Extension
 
-[link-template]: https://github.com/fregante/browser-extension-template
+[template]: https://github.com/fregante/browser-extension-template
+[publish-release]: https://addons.mozilla.org/en-US/developers/addon/gmail-background-gif/versions/submit/
 
 Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos album and use it as theme in GMail settings.
 
 Try it with:
 
 ```bash
+npm i
 web-ext run --firefox="C:\Program Files\Mozilla Firefox\firefox.exe"
 ```
 
-## Quick build guide
+## Quick build - Release guide
 
 ```bash
 npm run build
@@ -19,7 +21,9 @@ web-ext build
 
 The built extension is in `web-ext-artifacts`.
 
-The rest of this document is from the template used for this extension: [browser-extension-template](link-template).
+Publish it by hand on [this page](publish-release).
+
+The rest of this document is from the template used for this extension: [browser-extension-template](template).
 
 
 # browser-extension-template
