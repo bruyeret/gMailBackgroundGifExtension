@@ -2,16 +2,16 @@
     {
         "id" : 1,
         "priority": 1,
+        "condition": {
+            "initiatorDomains" : ["mail.google.com"],
+            "regexFilter": "https://lh3.googleusercontent.com/([^=]*)=(.*)",
+            "resourceTypes": ["image"]
+        },
         "action": {
             "type": "redirect",
             "redirect": {
                 "regexSubstitution": "https://lh3.googleusercontent.com/\\1=w1920-h1080"
             }
-        },
-        "condition": {
-            "initiatorDomains" : ["mail.google.com"],
-            "regexFilter": "https://lh3.googleusercontent.com/(.*)=(.*)",
-            "resourceTypes": ["image"]
         }
     }
 ]
