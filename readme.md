@@ -7,6 +7,15 @@ Makes animated GIFs as GMail background possible. Add a GIF in a Google Photos a
 
 Prerequisite: node v18.19.0 and run `npm i`.
 
+## Install for Chrome browsers
+
+To install for Chrome browsers:
+- download the source folder
+- remove the `browser_specific_settings` attribute of the `manifest.json`
+- go to `chrome://extensions/`
+- enable developer mode (top right)
+- click `Load unpacked` (top left) select the `source` folder
+
 ## Try extension with web-ext
 
 In a terminal:
